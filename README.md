@@ -8,18 +8,18 @@ neural TTS model. Runs entirely on your Mac (Apple Silicon or Intel).
 
 ## One-button install (free)
 
-    curl -fsSL https://raw.githubusercontent.com/YOUR-USERNAME/bionic-voice/main/install.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/Emin-dev/Bionic/main/install.sh | bash
 
 Or clone:
 
-    git clone https://github.com/YOUR-USERNAME/bionic-voice.git ~/.lmstudio/voice-engine
+    git clone https://github.com/Emin-dev/Bionic.git ~/.lmstudio/voice-engine
     cd ~/.lmstudio/voice-engine && ./install.sh
 
 The installer: installs `uv` (if missing), builds a Python venv with pinned
 deps, downloads the ~312 MB Kokoro model, deploys a **Skill** into Bionic, and
 self-tests with an audio sample. Then **start a new Bionic session.**
 
-> Replace `YOUR-USERNAME` with whoever publishes this repo.
+> Replace `Emin-dev` with whoever publishes this repo.
 
 ## How it works (and why it survives Bionic updates)
 

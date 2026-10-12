@@ -2,8 +2,8 @@
 # Bionic Voice — one-button installer. Works on a fresh Mac. Idempotent (re-runnable).
 set -euo pipefail
 
-# Public repo URL. Replace YOUR-USERNAME with the real one before sharing the curl one-liner.
-REPO_URL="${BIONIC_VOICE_REPO:-https://github.com/YOUR-USERNAME/bionic-voice.git}"
+# Public repo URL. Replace Emin-dev with the real one before sharing the curl one-liner.
+REPO_URL="${BIONIC_VOICE_REPO:-https://github.com/Emin-dev/Bionic.git}"
 
 ROOT="${BIONIC_VOICE_ROOT:-$HOME/.lmstudio/voice-engine}"
 export BIONIC_VOICE_ROOT="$ROOT"
