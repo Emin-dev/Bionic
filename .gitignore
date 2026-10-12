@@ -1,0 +1,9 @@
+# generated / heavy artifacts (never committed)
+env/
+.venv/
+model/
+state/
+__pycache__/
+*.pyc
+*.wav
+.DS_Store
